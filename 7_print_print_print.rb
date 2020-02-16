@@ -24,7 +24,7 @@ fat_cat = """
 I'll do a list:
 \t* Cat food
 \t* Fishies
-\t* Catnip\nt* Grass
+\t* Catnip\n\t* Grass
 """
 puts tabby_cat
 puts persian_cat
