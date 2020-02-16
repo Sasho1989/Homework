@@ -18,7 +18,7 @@ I can go on and on until i use those double quotes again i guess.
 
 
 tabby_cat = "\t I'm tabbed in."
-persian_cat = "I'm split\n ona a line."
+persian_cat = "I'm split\n on a line."
 space_cat = "\s I'm a space cat."
 fat_cat = """
 I'll do a list:
