@@ -11,7 +11,7 @@ class Rectangle < Shape
   end
 
   def welcome
-    puts "Hi, I am Rectangle, and my parent says: #{super}"
+    puts 'Hi, I am Rectangle, and my parent says:' + super
   end
 
   def area
@@ -33,7 +33,7 @@ class Triangle < Shape
   end
 
   def welcome
-    puts "Hi, I am Triangle, and my parent says: #{super}"
+    puts 'Hi, I am Triangle, and my parent says:' + super
   end
 
   def area
@@ -51,7 +51,7 @@ class Square < Shape
   end
 
   def welcome
-    puts "Hi, I am Square, and my parent says: #{super}"
+    puts 'Hi, I am Square, and my parent says:' + super
   end
 
   def area
