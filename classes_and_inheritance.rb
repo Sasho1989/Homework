@@ -11,7 +11,7 @@ class Rectangle < Shape
   end
 
   def welcome
-    puts 'Hi, I am Rectangle, and my parent says:' + super
+    'Hi, I am Rectangle, and my parent says:' + supers
   end
 
   def area
@@ -25,7 +25,7 @@ end
 
 class Triangle < Shape
   def initialize(base_widht, height, side1, side2, side3)
-    @base_widht = base_widht
+    @base_widht = base_widhtexit
     @height = height
     @side1 = side1
     @side2 = side2
@@ -33,7 +33,7 @@ class Triangle < Shape
   end
 
   def welcome
-    puts 'Hi, I am Triangle, and my parent says:' + super
+    'Hi, I am Triangle, and my parent says:' + super
   end
 
   def area
@@ -51,7 +51,7 @@ class Square < Shape
   end
 
   def welcome
-    puts 'Hi, I am Square, and my parent says:' + super
+    'Hi, I am Square, and my parent says:' + super
   end
 
   def area
